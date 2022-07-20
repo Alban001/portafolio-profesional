@@ -1,0 +1,27 @@
+.project{
+    h1{
+        font-weight: bold;
+        font-size: xx-large;
+        font-family: 'Inconsolata', monospace;
+    }
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2rem;
+    &.aligment{
+        width: 55%;
+        font-size: large;
+    }
+    &__listado{
+        display: flex;
+        flex-direction: row;
+    }
+    h1{
+        font-weight: bold;
+        font-size:xx-large;
+        padding: 1.3rem;
+        
+         }
+}
