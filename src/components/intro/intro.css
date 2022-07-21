@@ -15,10 +15,6 @@
 .intro p {
   font-size: large;
 }
-.intro__left {
-  display: block;
-  margin-left: 4rem;
-}
 .intro__descriptive {
   width: 100%;
   margin-bottom: 6rem;
@@ -55,6 +51,10 @@
   align-items: center;
   margin-left: 3rem;
 }
+.intro__left {
+  display: block;
+  margin-left: 4rem;
+}
 .intro__image, .intro img {
   border-radius: 50%;
   width: 350px;
@@ -63,4 +63,44 @@
 }
 .intro img:hover {
   filter: grayscale(0%);
+}
+
+@media only screen and (max-width: 425px) {
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .intro__image, .intro img {
+    margin-right: 3rem;
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+    filter: grayscale(100%);
+  }
+  .intro__left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 2rem;
+  }
+  .intro__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 3rem;
+    margin-right: 7rem;
+    width: 100%;
+  }
+  .intro__right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
 }/*# sourceMappingURL=intro.css.map */

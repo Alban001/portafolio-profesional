@@ -16,7 +16,7 @@
         width: 100%;
         padding-top: 5rem;
         text-align: center;
-
+        text-align: center;
         &.aligment{
             margin-left:3rem;
             text-align: left;
@@ -63,5 +63,41 @@
         color: rgb(33, 224, 192);
         
     }
+   
 }
+@media only screen and (max-width: 425px){
+    .about{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: small;
 
+    &__left{
+
+        padding: 2rem;
+        width: 100%;
+        padding-top: 5rem;
+        text-align: center;
+        margin-right: 2.5rem;
+        &.aligment{
+            margin-left:0.7rem;
+           
+            
+        }
+    }
+    &__right{
+       
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        padding-top:3rem;
+        padding-left: 5em;
+    } 
+    }
+    
+}

@@ -59,4 +59,40 @@
   width: 6rem !important;
   height: 2rem;
   background-color: rgb(33, 224, 192);
+}
+
+@media only screen and (max-width: 425px) {
+  h1 {
+    font-weight: bold;
+    font-size: medium;
+  }
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .contact__icon-container {
+    margin-top: 4rem;
+  }
+  .contact__right {
+    margin-top: 0;
+    text-align: center;
+    padding: 2rem;
+  }
+  .contact__form {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .contact__form input, .contact__form textarea {
+    width: 90%;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  .contact__form input {
+    height: 1.5rem;
+  }
 }/*# sourceMappingURL=contact.css.map */

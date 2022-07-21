@@ -67,4 +67,14 @@
             font-size: 2rem;
             color: rgb(33, 224, 192);
         }
+        
+ }
+ @media only screen and (max-width: 425px){
+     .card{
+        display:flex;
+        justify-content: center;
+       
+        
     }
+    
+}
