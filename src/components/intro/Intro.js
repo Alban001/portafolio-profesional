@@ -17,11 +17,11 @@ const Intro = () => {
             <h1>{translate('Soy Elias Alonzo', 'Soy Elias Alonzo')}</h1>
             <p>{translate('Desarrollador web, creo contenido utilizando las últimas tendencias en el área web, analizando la necesidad específica y buscando las mejores prácticas para cumplir con todos los núcleos de un proyecto.', 'Desarrollador web, creo contenido utilizando las últimas tendencias en el área web, analizando la necesidad específica y buscando las mejores prácticas para cumplir con todos los núcleos de un proyecto.')}</p>
            </div>
-            <div className='intro__content'>
+           {/* <div className='intro__content'>
                 <p className='intro__neon'>{translate('Desarrollador Web', 'Desarrollador Web')}</p>
                 <p className='intro__neon'>{translate('Creador de Contenido', 'Creador de Contenido')}</p>
                 <p className='intro__neon'>{translate('Creación & Diseño', 'Creación & Diseño')} </p>
-            </div>
+            </div>*/}
         </div>
 
 
