@@ -98,6 +98,10 @@
         flex-direction: column;
         justify-content:left;
         margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    &__descriptive{
+        padding-right: 2rem;
     }
     &__content{
        display: flex;
