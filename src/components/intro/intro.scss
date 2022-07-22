@@ -97,11 +97,10 @@
         align-items: center;
         flex-direction: column;
         justify-content:left;
-        
-        width: 70%;
     }
     &__descriptive{
-        padding-right: 2rem;
+        width: 75%;
+        padding-right: 1rem;
     }
     &__content{
        display: flex;
