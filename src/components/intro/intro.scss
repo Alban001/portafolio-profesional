@@ -97,8 +97,8 @@
         align-items: center;
         flex-direction: column;
         justify-content:left;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        
+        width: 70%;
     }
     &__descriptive{
         padding-right: 2rem;
@@ -117,6 +117,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
         padding: 2rem;
     }
     }
