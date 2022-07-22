@@ -72,11 +72,9 @@
             border-radius: 50%;
             width: 350px;
             height: auto;
-            filter: grayscale(100%);
+            
     }
-    img:hover{
-        filter: grayscale(0%);
-    }
+    
    
 }
 @media only screen and (max-width: 425px){
