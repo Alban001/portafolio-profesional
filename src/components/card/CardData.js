@@ -10,13 +10,13 @@ export const cardContent =[
         id:2,
         img: listado,
         alt:'vacio',
-        descrip: 'Projecto dos'
+        descrip: 'Projecto de aplicación de listado'
     },
     {
                
         id:3,
         img: listado,
         alt:'vacio',
-        descrip: 'Projecto tres'
+        descrip: 'Projecto de aplicación de listado'
     }
 ]

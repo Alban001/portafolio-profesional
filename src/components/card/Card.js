@@ -21,13 +21,21 @@ export const Card = ({img,alt,descrip}) => {
         <div className="btn-container">
             <div className="btn-container__unit">
                 <div className="btn-container__icon">
-                     <i className="fa-solid fa-window-maximize btn-container__icon-body"></i>
-                </div>  
-                      <p>{translate('Desplegar', 'Desplegar')}</p>
+                <a href="https://todo-list-alban.netlify.app/"
+                aria-label='Linkedin'
+                rel='noopener'
+                target='_blank'
+                ><i className="fa-solid fa-window-maximize btn-container__icon-body"></i></a> 
+                </div>
+                <p>{translate('Desplegar', 'Desplegar')}</p>
             </div>
               <div className="btn-container__unit">
                    <div className="btn-container__icon">
-                     <i className="fa-brands fa-github btn-container__icon-body"></i>
+                   <a href="https://github.com/Alban001/todo-list"
+                aria-label='Linkedin'
+                rel='noopener'
+                target='_blank'
+                ><i className="fa-brands fa-github btn-container__icon-body"></i></a>
                   </div>
                   <p>Github</p>
                </div>
