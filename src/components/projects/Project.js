@@ -4,6 +4,7 @@ import './project.css'
 import translate from '../../internalization/Translate'
 import { LocaleContext } from '../apiContext/ApiContext'
 import { cardContent } from '../card/CardData'
+import { linksContent } from '../card/CardData'
 export const Project = () => {
   const  [locale, setLocale,LOCALES] = useContext(LocaleContext)
   return (

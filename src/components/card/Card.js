@@ -4,6 +4,7 @@ import github from '../img/github.png'
 import deploy from '../img/deploy.png'
 import translate from '../../internalization/Translate'
 import { LocaleContext } from '../apiContext/ApiContext'
+import { linksContent } from './CardData'
 
 export const Card = ({img,alt,descrip}) => {
   
@@ -21,7 +22,7 @@ export const Card = ({img,alt,descrip}) => {
         <div className="btn-container">
             <div className="btn-container__unit">
                 <div className="btn-container__icon">
-                <a href="https://todo-list-alban.netlify.app/"
+                <a  href={linksContent[1].web}
                 aria-label='Linkedin'
                 rel='noopener'
                 target='_blank'
@@ -31,7 +32,7 @@ export const Card = ({img,alt,descrip}) => {
             </div>
               <div className="btn-container__unit">
                    <div className="btn-container__icon">
-                   <a href="https://github.com/Alban001/todo-list"
+                   <a href={linksContent[1].git}
                 aria-label='Linkedin'
                 rel='noopener'
                 target='_blank'

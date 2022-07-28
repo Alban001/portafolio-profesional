@@ -22,3 +22,14 @@ export const cardContent =[
         descrip: 'Projecto de aplicación de listado'
     }
 ]
+
+export const linksContent=[
+    {
+        web:'https://todo-list-alban.netlify.app/',
+        git:'https://github.com/Alban001/todo-list'
+    },
+    {
+        web:'https://random-machine.netlify.app/',
+        git:'https://github.com/Alban001/frasesaleatorias'
+    }
+]
