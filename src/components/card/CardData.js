@@ -1,4 +1,6 @@
 import listado from '../img/listado.png'
+import random from '../img/random.png'
+
 export const cardContent =[
     {
         id:1,
@@ -8,9 +10,9 @@ export const cardContent =[
     },
     {
         id:2,
-        img: listado,
-        alt:'vacio',
-        descrip: 'Projecto de aplicación de listado'
+        img: random,
+        alt:'Aleatorios',
+        descrip: 'Aplicación con botones que muestran frases aleatorias'
     },
     {
                
