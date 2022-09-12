@@ -1,10 +1,12 @@
 import React, {useContext} from 'react'
 import { Card } from '../card/Card'
 import './project.css'
-import translate from '../../internalization/Translate'
+import translate from '../../internalization/Translate.js'
 import { LocaleContext } from '../apiContext/ApiContext'
 import { cardContent } from '../card/CardData'
 import { linksContent } from '../card/CardData'
+
+
 export const Project = () => {
   const  [locale, setLocale,LOCALES] = useContext(LocaleContext)
   return (
@@ -13,11 +15,10 @@ export const Project = () => {
        <p className='project aligment'> {translate('Porque la inspiración me lleva a crear la mejor solución a una necesidad, mi objetivo está enfocado en liderar un proyecto que cambiará el entorno del usuario final.', 'Porque la inspiración me lleva a crear la mejor solución a una necesidad, mi objetivo está enfocado en liderar un proyecto que cambiará el entorno del usuario final.')}</p>
         <div className="project__listado">
             {cardContent.map((item)=>(
-              <Card key={item.id} img={item.img} alt={item.alt} descrip={item.descrip} />
+              <Card key={item.id} img={item.img} alt={item.alt} descrip={item.descrip} git={item.git} web={item.web} />
             ))
             }
         </div>
-        
     </div>
   )
 }

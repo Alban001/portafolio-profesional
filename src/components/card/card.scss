@@ -41,12 +41,12 @@
         align-items: center;
         justify-content:center;
         gap: 4rem;
-        margin: 1rem;
+        
 
         &__unit{
             display: flex;
             flex-direction: column;
-            margin: 0.3;
+            
             p{
                 font-family: 'Inconsolata', monospace;
             }
@@ -64,7 +64,7 @@
             }
         }
         &__icon-body{
-            font-size: 2rem;
+            font-size: 1.7rem;
             color: rgb(33, 224, 192);
         }
         

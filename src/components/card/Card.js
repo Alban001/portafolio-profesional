@@ -1,28 +1,25 @@
 import React, {useContext} from 'react'
-import './card.css'
+import './card.scss'
 import github from '../img/github.png'
 import deploy from '../img/deploy.png'
-import translate from '../../internalization/Translate'
 import { LocaleContext } from '../apiContext/ApiContext'
-import { linksContent } from './CardData'
+import { linksContent, linksData } from './CardData'
+import translate from '../../internalization/Translate'
 
-export const Card = ({img,alt,descrip}) => {
-  
+
+export const Card = ({img,alt,descrip,web, git}) => {
   return (
     <div>
      {/* Card Block */}
-    <div className='card'>
+     <div className='card'>
         <img src={img} alt={alt} className='card__img'/>
         <div className="card__unit">
           <p>{descrip}</p>
         </div>
-    </div>
-     {/* Card Button Container */}
-
         <div className="btn-container">
             <div className="btn-container__unit">
                 <div className="btn-container__icon">
-                <a  href={linksContent[1].web}
+                <a  href={web}
                 aria-label='Linkedin'
                 rel='noopener'
                 target='_blank'
@@ -32,7 +29,7 @@ export const Card = ({img,alt,descrip}) => {
             </div>
               <div className="btn-container__unit">
                    <div className="btn-container__icon">
-                   <a href={linksContent[1].git}
+                   <a href={git}
                 aria-label='Linkedin'
                 rel='noopener'
                 target='_blank'
@@ -41,6 +38,8 @@ export const Card = ({img,alt,descrip}) => {
                   <p>Github</p>
                </div>
         </div>
-        </div>
+    </div>
+   
+    </div>
   )
 }
