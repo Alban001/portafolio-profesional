@@ -1,5 +1,6 @@
 import listado from '../img/listado.png'
 import random from '../img/random.png'
+import maraton from '../img/maraton.png'
 
 export const cardContent =[
     {
@@ -21,9 +22,11 @@ export const cardContent =[
     {
                
         id:3,
-        img: listado,
-        alt:'vacio',
-        descrip: 'Projecto de aplicación de listado'
+        img: maraton,
+        alt:'Pagina web que actualiza los ultimos estrenos de peliculas utilizando APIS',
+        descrip: 'Projecto de aplicación de listado',
+        web:'https://maraton-pelis.netlify.app/',
+        git:'https://github.com/Alban001/apivmovie.git'
     },
    
 ]
