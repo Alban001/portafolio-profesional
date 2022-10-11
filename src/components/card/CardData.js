@@ -25,7 +25,7 @@ export const cardContent =[
         img: maraton,
         alt:'Movies',
         descrip: 'Pagina web que actualiza los ultimos estrenos de peliculas utilizando APIS',
-        web:'https://maraton-pelis.netlify.app/',
+        web:'https://clickpelis.netlify.app/',
         git:'https://github.com/Alban001/apivmovie.git'
     },
    

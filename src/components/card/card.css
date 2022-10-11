@@ -16,8 +16,8 @@
 }
 .card__img {
   width: 100%;
-  height: auto;
-  margin-top: 2rem;
+  height: 14rem;
+  margin-top: 1rem;
 }
 .card__unit {
   display: flex;
@@ -48,8 +48,8 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-  gap: 2rem;
-  margin: 1rem;
+  gap: 1rem;
+  margin: 0.3rem;
   margin-left: 1.5rem;
 }
 .btn-container__icon i:hover {

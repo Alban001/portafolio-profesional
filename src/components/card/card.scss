@@ -19,8 +19,8 @@
          
         &__img{
             width:100%;
-            height: auto;
-            margin-top: 2rem;
+            height: 14rem;
+            margin-top: 1rem;
         }
 
         &__unit{
@@ -56,8 +56,8 @@
             justify-content:flex-start;
             align-items: center;
             flex-direction: row;
-            gap: 2rem;
-            margin: 1rem;
+            gap: 1rem;
+            margin: 0.3rem;
             margin-left: 1.5rem;
             i:hover{
                 text-shadow: 0 0 5px rgb(33, 224, 192), 0 0 10px rgb(33, 224, 192);
