@@ -1,5 +1,5 @@
 import listado from '../img/listado.png'
-import random from '../img/random.png'
+import sistema from '../img/sistema.jpeg'
 import maraton from '../img/maraton.png'
 
 export const cardContent =[
@@ -13,11 +13,10 @@ export const cardContent =[
     },
     {
         id:2,
-        img: random,
-        alt:'Aleatorios',
-        descrip: 'Aplicación con botones que muestran frases aleatorias',
-        web:'https://random-machine.netlify.app/',
-        git:'https://github.com/Alban001/frasesaleatorias'
+        img: sistema,
+        alt:'Sistema de Stock',
+        descrip: 'Sistema de facturacion para escritorio hecho con Java para comercios  medianos ',
+        git:'https://github.com/Alban001/AgileSistemas'
     },
     {
                
